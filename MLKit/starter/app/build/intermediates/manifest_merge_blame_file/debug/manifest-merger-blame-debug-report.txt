@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.codelabs.objectdetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:5:5-9:15
+12        <intent>
+12-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:6:9-8:18
+13            <action android:name="android.media.action.IMAGE_CAPTURE" />
+13-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:7:13-73
+13-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:7:21-70
+14        </intent>
+15    </queries>
+16
+17    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+18    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\594ee15ea3070282a5917db2b52b046f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+19-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\594ee15ea3070282a5917db2b52b046f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\594ee15ea3070282a5917db2b52b046f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+20-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\594ee15ea3070282a5917db2b52b046f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:22-64
+21
+22    <application
+22-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:11:5-35:19
+23        android:allowBackup="true"
+23-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:12:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.2] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f4726924add2327517ec5f23b6aa3aba\core-1.3.2\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:13:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:14:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:15:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:16:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.ObjectDetection" >
+32-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:17:9-53
+33        <activity android:name="org.tensorflow.codelabs.objectdetection.MainActivity" >
+33-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:18:9-24:20
+33-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:18:19-86
+34            <intent-filter>
+34-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:19:13-23:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:20:17-69
+35-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:20:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:22:17-77
+37-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:22:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:26:9-34:20
+42            android:name="androidx.core.content.FileProvider"
+42-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:27:13-62
+43            android:authorities="org.tensorflow.codelabs.objectdetection.fileprovider"
+43-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:28:13-87
+44            android:exported="false"
+44-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:29:13-37
+45            android:grantUriPermissions="true" >
+45-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:30:13-47
+46            <meta-data
+46-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:31:13-33:54
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:32:17-67
+48                android:resource="@xml/file_paths" />
+48-->C:\Users\rober\AndroidStudioProjects\odml-pathways-main\object-detection\codelab2\android\starter\app\src\main\AndroidManifest.xml:33:17-51
+49        </provider>
+50
+51        <service
+51-->[com.google.mlkit:object-detection:16.2.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\0990eba0c2eaeaa5fcac19baba5ad839\jetified-object-detection-16.2.4\AndroidManifest.xml:8:9-14:19
+52            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+52-->[com.google.mlkit:object-detection:16.2.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\0990eba0c2eaeaa5fcac19baba5ad839\jetified-object-detection-16.2.4\AndroidManifest.xml:9:13-91
+53            android:directBootAware="true"
+53-->[com.google.mlkit:common:17.1.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\dd792b085725ec7d452b3445b9444a7b\jetified-common-17.1.1\AndroidManifest.xml:17:13-43
+54            android:exported="false" >
+54-->[com.google.mlkit:object-detection:16.2.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\0990eba0c2eaeaa5fcac19baba5ad839\jetified-object-detection-16.2.4\AndroidManifest.xml:10:13-37
+55            <meta-data
+55-->[com.google.mlkit:object-detection:16.2.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\0990eba0c2eaeaa5fcac19baba5ad839\jetified-object-detection-16.2.4\AndroidManifest.xml:11:13-13:85
+56                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar"
+56-->[com.google.mlkit:object-detection:16.2.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\0990eba0c2eaeaa5fcac19baba5ad839\jetified-object-detection-16.2.4\AndroidManifest.xml:12:17-136
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.mlkit:object-detection:16.2.4] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\0990eba0c2eaeaa5fcac19baba5ad839\jetified-object-detection-16.2.4\AndroidManifest.xml:13:17-82
+58            <meta-data
+58-->[com.google.mlkit:vision-internal-vkp:18.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\36be1855bf14fcd7083450fce72ec7d2\jetified-vision-internal-vkp-18.1.0\AndroidManifest.xml:11:13-13:85
+59                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+59-->[com.google.mlkit:vision-internal-vkp:18.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\36be1855bf14fcd7083450fce72ec7d2\jetified-vision-internal-vkp-18.1.0\AndroidManifest.xml:12:17-103
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.mlkit:vision-internal-vkp:18.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\36be1855bf14fcd7083450fce72ec7d2\jetified-vision-internal-vkp-18.1.0\AndroidManifest.xml:13:17-82
+61            <meta-data
+61-->[com.google.mlkit:vision-common:16.4.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f74cdb8b1cd1a3280183960cca6caf38\jetified-vision-common-16.4.0\AndroidManifest.xml:12:13-14:85
+62                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+62-->[com.google.mlkit:vision-common:16.4.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f74cdb8b1cd1a3280183960cca6caf38\jetified-vision-common-16.4.0\AndroidManifest.xml:13:17-124
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.mlkit:vision-common:16.4.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f74cdb8b1cd1a3280183960cca6caf38\jetified-vision-common-16.4.0\AndroidManifest.xml:14:17-82
+64            <meta-data
+64-->[com.google.mlkit:common:17.1.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\dd792b085725ec7d452b3445b9444a7b\jetified-common-17.1.1\AndroidManifest.xml:20:13-22:85
+65                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+65-->[com.google.mlkit:common:17.1.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\dd792b085725ec7d452b3445b9444a7b\jetified-common-17.1.1\AndroidManifest.xml:21:17-120
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.mlkit:common:17.1.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\dd792b085725ec7d452b3445b9444a7b\jetified-common-17.1.1\AndroidManifest.xml:22:17-82
+67        </service>
+68
+69        <provider
+69-->[com.google.mlkit:common:17.1.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\dd792b085725ec7d452b3445b9444a7b\jetified-common-17.1.1\AndroidManifest.xml:9:9-13:38
+70            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+70-->[com.google.mlkit:common:17.1.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\dd792b085725ec7d452b3445b9444a7b\jetified-common-17.1.1\AndroidManifest.xml:10:13-78
+71            android:authorities="org.tensorflow.codelabs.objectdetection.mlkitinitprovider"
+71-->[com.google.mlkit:common:17.1.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\dd792b085725ec7d452b3445b9444a7b\jetified-common-17.1.1\AndroidManifest.xml:11:13-69
+72            android:exported="false"
+72-->[com.google.mlkit:common:17.1.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\dd792b085725ec7d452b3445b9444a7b\jetified-common-17.1.1\AndroidManifest.xml:12:13-37
+73            android:initOrder="99" />
+73-->[com.google.mlkit:common:17.1.1] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\dd792b085725ec7d452b3445b9444a7b\jetified-common-17.1.1\AndroidManifest.xml:13:13-35
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\837244e8bf4cf773cdfd5fe6fb7532a7\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\837244e8bf4cf773cdfd5fe6fb7532a7\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\837244e8bf4cf773cdfd5fe6fb7532a7\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\837244e8bf4cf773cdfd5fe6fb7532a7\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\7a98e76a9141858cb70a9da971f9db68\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\7a98e76a9141858cb70a9da971f9db68\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\7a98e76a9141858cb70a9da971f9db68\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+83
+84        <provider
+84-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\3ea56c4942aade74a7a71103639fbae7\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+85            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\3ea56c4942aade74a7a71103639fbae7\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+86            android:authorities="org.tensorflow.codelabs.objectdetection.lifecycle-process"
+86-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\3ea56c4942aade74a7a71103639fbae7\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+87            android:exported="false"
+87-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\3ea56c4942aade74a7a71103639fbae7\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+88            android:multiprocess="true" />
+88-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\3ea56c4942aade74a7a71103639fbae7\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+89
+90        <service
+90-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\594ee15ea3070282a5917db2b52b046f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+91            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+91-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\594ee15ea3070282a5917db2b52b046f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+92            android:exported="false" >
+92-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\594ee15ea3070282a5917db2b52b046f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+93            <meta-data
+93-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\594ee15ea3070282a5917db2b52b046f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+94                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+94-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\594ee15ea3070282a5917db2b52b046f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+95                android:value="cct" />
+95-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\594ee15ea3070282a5917db2b52b046f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+96        </service>
+97        <service
+97-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f30950e021242054ee0b20c9e2b02fdc\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+98            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+98-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f30950e021242054ee0b20c9e2b02fdc\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+99            android:exported="false"
+99-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f30950e021242054ee0b20c9e2b02fdc\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+100            android:permission="android.permission.BIND_JOB_SERVICE" >
+100-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f30950e021242054ee0b20c9e2b02fdc\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+101        </service>
+102
+103        <receiver
+103-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f30950e021242054ee0b20c9e2b02fdc\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+104            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+104-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f30950e021242054ee0b20c9e2b02fdc\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+105            android:exported="false" />
+105-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rober\.gradle\caches\transforms-2\files-2.1\f30950e021242054ee0b20c9e2b02fdc\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+106    </application>
+107
+108</manifest>
